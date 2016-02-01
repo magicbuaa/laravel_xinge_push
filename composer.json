@@ -3,7 +3,7 @@
     "description": "Laravel XinGe push integration",
     "type": "library",
     "require": {
-        "php": "5.5.9"
+        "php": ">=5.5.9"
     },
     "license": "MIT",
     "keyword": ["laravel"],
