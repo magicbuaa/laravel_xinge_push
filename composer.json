@@ -1,0 +1,16 @@
+{
+    "name": "kevin/laravel_xinge_push",
+    "description": "Laravel XinGe push integration",
+    "type": "library",
+    "require": {
+        "php": "5.5.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "孟建春",
+            "email": "magicbuaa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
