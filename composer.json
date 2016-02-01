@@ -6,11 +6,17 @@
         "php": "5.5.9"
     },
     "license": "MIT",
+    "keyword": ["laravel"],
     "authors": [
         {
-            "name": "孟建春",
+            "name": "kevin",
             "email": "magicbuaa@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "\\Kevin\\Xinge\\": "src/"
+        }
+    }
 }
