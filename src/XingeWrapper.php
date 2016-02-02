@@ -28,7 +28,7 @@ class XingeWrapper {
         $iosConfig = $this->config['iOS'];
         $accessId = $iosConfig['accessId'];
         $secretKey = $iosConfig['secretKey'];
-        $environment = $iosConfig['environment'] == 'production' ? 1 : 0;
+        $environment = $iosConfig['environment'] == 'production' ? XingeApp::IOSENV_PROD : XingeApp::IOSENV_DEV;
         return XingeApp::PushTokenIos($accessId, $secretKey, $content, $token, $environment);
     }
 
@@ -45,7 +45,7 @@ class XingeWrapper {
         $iosConfig = $this->config['iOS'];
         $accessId = $iosConfig['accessId'];
         $secretKey = $iosConfig['secretKey'];
-        $environment = $iosConfig['environment'] == 'production' ? 1 : 0;
+        $environment = $iosConfig['environment'] == 'production' ? XingeApp::IOSENV_PROD : XingeApp::IOSENV_DEV;
         return XingeApp::PushAllIos($accessId, $secretKey, $content, $environment);
     }
 
