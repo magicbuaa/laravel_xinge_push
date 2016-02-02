@@ -29,7 +29,7 @@ class XingeWrapper {
         $accessId = $iosConfig['accessId'];
         $secretKey = $iosConfig['secretKey'];
         $environment = $iosConfig['environment'] == 'production' ? 1 : 0;
-        return XingeApp::PushTokenAndroid($accessId, $secretKey, $content, $token, $environment);
+        return XingeApp::PushTokenIos($accessId, $secretKey, $content, $token, $environment);
     }
 
     public function PushAllAndroid($title, $content)
@@ -55,3 +55,4 @@ class XingeWrapper {
         $this->PushAllAndroid($title, $content);
     }
 } 
+
