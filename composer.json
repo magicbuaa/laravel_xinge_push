@@ -13,10 +13,10 @@
             "email": "magicbuaa@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "\\Kevin\\Xinge\\": "src/"
+            "Kevin\\Xinge\\": "src/"
         }
     }
 }
